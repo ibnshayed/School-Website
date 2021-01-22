@@ -1,0 +1,76 @@
+.header{
+    &__first{
+        background: $white;
+        padding: 10px;
+    }
+
+    &__name{
+        .bangla{
+            font-weight: bold;
+            color: #333;
+            font-size: 28px;
+        }
+        .english{
+            font-weight: bold;
+            color: #333;
+            font-size: 28px;
+        }
+    }
+
+    &__email{
+        a{
+            font-size: 14px;
+            font-family: 'Oswald', sans-serif;
+            font-weight: bold;
+        }
+    }
+
+    &__navbar{
+        background: $lightGray;
+        font-weight: bold;
+        .nav{
+            list-style-type: none;
+            padding-left: 0;
+            margin: 0;
+        }
+
+        .nav-item{
+            padding: 10px 20px;
+
+            a{
+                color: #333;
+            }
+        }
+
+        .nav li:first-child{
+            background: $white;
+        }
+    }
+
+    .notice-up{
+        height: 1rem;
+        background: $white;
+    }
+
+    &__notice{
+        .text{
+            flex: 1 0 10%;
+            text-align: center;
+            background: $green;
+            color: $white;
+            font-weight: bold;
+
+            p{
+                margin: 0;
+                padding: 8px;
+            }
+        }
+        .payment{
+            width: 100%;
+            background: $lightGray;
+            padding: 7px 10px;
+        }
+
+    }
+    
+}
