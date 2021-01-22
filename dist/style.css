@@ -99,12 +99,16 @@ hr {
   margin: 0;
 }
 
-.header__navbar .nav-item {
+.header__navbar .nav-item a {
+  display: inline-block;
   padding: 10px 20px;
+  color: #333;
+  transition: .5s ease-in-out;
 }
 
-.header__navbar .nav-item a {
-  color: #333;
+.header__navbar .nav-item a:hover {
+  background: black;
+  color: white;
 }
 
 .header__navbar .nav li:first-child {
