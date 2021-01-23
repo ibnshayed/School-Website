@@ -1,0 +1,30 @@
+.branch{
+
+    padding: 20px 0;
+
+    &__title{
+        text-align: center;
+        margin-bottom: 20px;
+        font-family: $font-oswald;
+        font-size: $font-xxl;
+        font-weight: bold;
+    }
+
+    &__description > div{
+        flex: 1 0 32%;
+    }
+
+    &__description > div:not(:last-child){
+        margin-right: 2%;
+    }
+
+    img{
+        width: 100%;
+    }
+
+    h3{
+        text-align: center;
+        padding: 10px 0;
+        font-family: $font-oswald;
+    }
+}

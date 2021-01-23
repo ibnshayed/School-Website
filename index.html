@@ -5,6 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="preconnect" href="https://fonts.gstatic.com">
     <link href="https://fonts.maateen.me/kalpurush/font.css" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Oswald:200,300,400,700&amp;display=swap" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400;700&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.2/css/all.min.css" integrity="sha512-HK5fgLBL+xu6dm/Ii3z4xhlSUyZgTT9tuc/hSrtw6uzJOvgRr2a9jyxxT1ely+B+xFAmJKVSTbpM/CuL7qxO8w==" crossorigin="anonymous" />
     <link rel="stylesheet" href="/dist/style.css">
@@ -34,11 +35,25 @@
                         <li class="nav-item">
                             <a href="" class="nav-link">হোম</a>
                         </li>
-                        <li class="nav-item">
-                            <a href="" class="nav-link">আমাদের কথা</a>
+                        <li class="nav-item dropdown">
+                            <a href="" class="nav-link">আমাদের কথা
+                                <i class="fas fa-angle-down"></i>
+                            </a>
+                            <div class="dropdown-content">
+                                <a href="#" class="dropdown-link">Item 123</a>
+                                <a href="#" class="dropdown-link">Item 123</a>
+                                <a href="#" class="dropdown-link">Item 123</a>
+                            </div>
                         </li>
-                        <li class="nav-item">
-                            <a href="" class="nav-link">শিক্ষকদের তথ্য</a>
+                        <li class="nav-item dropdown">
+                            <a href="" class="nav-link">শিক্ষকদের তথ্য
+                                <i class="fas fa-angle-down"></i>
+                            </a>
+                            <div class="dropdown-content">
+                                <a href="#" class="dropdown-link">Item 123</a>
+                                <a href="#" class="dropdown-link">Item 123</a>
+                                <a href="#" class="dropdown-link">Item 123</a>
+                            </div>
                         </li>
                         <li class="nav-item">
                             <a href="" class="nav-link">স্টাফদের তথ্য</a>
@@ -107,6 +122,79 @@
         </section>
 
         <hr>
+
+        <section class="info container">
+            <h1 class="info__heading">Notice Board & Results Corner</h1>
+            <div class="info__list flex flex-wrap flex-jc-sb">
+                <div>
+                    <div class="title">
+                        <h3>Notice Board</h3>
+                    </div>
+                    <ul class="upper-list">
+                        <li class="flex flex-ai-c">
+                            <ul class="inner-list">
+                                <li>Aug</li>
+                                <li>13</li>
+                            </ul>
+                            <p>Notice: Academic transcript & Testimonial distribution 2020</p>
+                        </li>
+                        <li class="flex flex-ai-c">
+                            <ul class="inner-list">
+                                <li>Aug</li>
+                                <li>13</li>
+                            </ul>
+                            <p>Notice: Academic transcript & Testimonial distribution 2020</p>
+                        </li>
+                        <li class="flex flex-ai-c">
+                            <ul class="inner-list">
+                                <li>Aug</li>
+                                <li>13</li>
+                            </ul>
+                            <p>Notice: Academic transcript & Testimonial distribution 2020</p>
+                        </li>
+                    </ul>
+                    <button class="button">Read More</button>
+                </div>
+
+                <div>
+                    <div class="title">
+                        <h3>Notice Board</h3>
+                    </div>
+                    <ul class="upper-list">
+                        <li>PEC</li>
+                        <li>JSC</li>
+                        <li>S.S.C</li>
+                        <li>H.S.C</li>
+                        <li>Internal Exam Result</li>
+                    </ul>
+                    <button class="button">Read More</button>
+                </div>
+            </div>
+        </section>
+
+        <hr>
+
+        <section class="branch container">
+            <h1 class="branch__title">Our Branches</h1>
+            <div class="branch__description flex flex-wrap flex-jc-sb">
+                <div>
+                    <img src="/app/images/motijheel_branch.jpg" alt="Motijheel">
+                    <h3>Motijheel</h3>
+                    <button class="button">Read More</button>
+                </div>
+                <div>
+                    <img src="/app/images/banosree_branch_ideal.jpg" alt="banosree">
+                    <h3>Banosree</h3>
+                    <button class="button">Read More</button>
+                </div>
+                <div>
+                    <img src="/app/images/ideal_mugda_branch.jpg" alt="mugda">
+                    <h3>Mugda</h3>
+                    <button class="button">Read More</button>
+                </div>
+            </div>
+            
+        </section>
     
 
     <script src="/app/js/script.js"></script>

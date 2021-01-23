@@ -18,11 +18,12 @@ body{
     line-height: 1.3;
 }
 
-h1,h2,h3,h4,h5,h6,p,span{
+h1,h2,h3,h4,h5,h6,p,span,a,ul,li{
     margin: 0;
     padding: 0;
 }
 
+// encore 
 a, a:visited, a:hover{
     text-decoration: none;
     color: $black;
@@ -31,6 +32,11 @@ a, a:visited, a:hover{
 
 hr{
     border: 1px solid rgba(128,128,128,.3);
+}
+
+// List
+ul{
+    list-style-type: none;
 }
 
 .container{
@@ -65,4 +71,23 @@ hr{
     &-as-c{
         align-self: center;
     }
+}
+
+// Button
+
+.button{
+    display: block;
+    background-color: transparent;
+    border: 1px solid #004D40;
+    color: #243C6E;
+    border-radius: 0px;
+    text-align: center;
+    margin: 10px auto;
+    padding: 10px 20px;
+    cursor: pointer;
+}
+
+.button:hover{
+    color: #fff;
+    background-color: #004D40;
 }
