@@ -1,0 +1,44 @@
+.about{
+    background: $green;
+    color: $white;
+    padding: 50px 0;
+
+    &__main > div{
+        flex: 1 0 22%
+    }
+
+    &__main > div:not(:last-child){
+        margin-right: 4%;
+    }
+
+    h3{
+        border-bottom: 1px solid $white;
+        margin-bottom: 6px;
+    }
+
+    .fab{
+        font-size:24px;
+        float: left;
+        margin-right: 10px;
+    }
+    .far, .fas{
+        margin-right: 10px;
+    }
+
+    a{
+        display: block;
+        color: $white;
+        padding: 4px 0;
+    }
+    ul li{
+        padding: 5px;
+    }
+    ul li::after{
+        content: "";
+        display: block;
+        clear: both;
+    }
+    p{
+        padding: 5px;
+    }
+}

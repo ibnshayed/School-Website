@@ -227,6 +227,14 @@ ul {
 .hero .third {
   flex: 1 0 30%;
   box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+  text-align: center;
+  padding: 16px;
+}
+
+.hero .third img {
+  height: 120px;
+  width: 120px;
+  border-radius: 50%;
 }
 
 .info__heading {
@@ -340,5 +348,59 @@ ul {
   text-align: center;
   padding: 10px 0;
   font-family: "Oswald", sans-serif;
+}
+
+.about {
+  background: #004d40;
+  color: white;
+  padding: 50px 0;
+}
+
+.about__main > div {
+  flex: 1 0 22%;
+}
+
+.about__main > div:not(:last-child) {
+  margin-right: 4%;
+}
+
+.about h3 {
+  border-bottom: 1px solid white;
+  margin-bottom: 6px;
+}
+
+.about .fab {
+  font-size: 24px;
+  float: left;
+  margin-right: 10px;
+}
+
+.about .far, .about .fas {
+  margin-right: 10px;
+}
+
+.about a {
+  display: block;
+  color: white;
+  padding: 4px 0;
+}
+
+.about ul li {
+  padding: 5px;
+}
+
+.about ul li::after {
+  content: "";
+  display: block;
+  clear: both;
+}
+
+.about p {
+  padding: 5px;
+}
+
+.footer p {
+  text-align: center;
+  padding: 10px 0;
 }
 /*# sourceMappingURL=style.css.map */
