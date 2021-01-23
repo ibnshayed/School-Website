@@ -8,14 +8,14 @@
     <link href="https://fonts.googleapis.com/css?family=Oswald:200,300,400,700&amp;display=swap" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400;700&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.2/css/all.min.css" integrity="sha512-HK5fgLBL+xu6dm/Ii3z4xhlSUyZgTT9tuc/hSrtw6uzJOvgRr2a9jyxxT1ely+B+xFAmJKVSTbpM/CuL7qxO8w==" crossorigin="anonymous" />
-    <link rel="stylesheet" href="/dist/style.css">
+    <link rel="stylesheet" href="./dist/style.css">
     <title>School Website</title>
 </head>
 <body>
         <header class="header container">
             <div class="header__first flex flex-jc-sb">
                 <div class="header__logo">
-                    <img src="/app/images/logot.png" alt="logo" >
+                    <img src="./app/images/logot.png" alt="logo" >
                 </div>
                 <div class="header__name flex-as-c">
                     <p class="bangla">আইডিয়াল স্কুল অ্যান্ড কলেজ, মতিঝিল, ঢাকা-১০০০</p>
@@ -115,7 +115,7 @@
                 </div>
             </div>
             <div class="second">
-                <img src="/app/images/image1.jpg" alt="" srcset="">
+                <img src="./app/images/image1.jpg" alt="" srcset="">
             </div>
             <div class="third"></div>
 
@@ -178,23 +178,48 @@
             <h1 class="branch__title">Our Branches</h1>
             <div class="branch__description flex flex-wrap flex-jc-sb">
                 <div>
-                    <img src="/app/images/motijheel_branch.jpg" alt="Motijheel">
+                    <img src="./app/images/motijheel_branch.jpg" alt="Motijheel">
                     <h3>Motijheel</h3>
                     <button class="button">Read More</button>
                 </div>
                 <div>
-                    <img src="/app/images/banosree_branch_ideal.jpg" alt="banosree">
+                    <img src="./app/images/banosree_branch_ideal.jpg" alt="banosree">
                     <h3>Banosree</h3>
                     <button class="button">Read More</button>
                 </div>
                 <div>
-                    <img src="/app/images/ideal_mugda_branch.jpg" alt="mugda">
+                    <img src="./app/images/ideal_mugda_branch.jpg" alt="mugda">
                     <h3>Mugda</h3>
                     <button class="button">Read More</button>
                 </div>
             </div>
             
         </section>
+
+        <hr>
+
+        <section class="gallery container">
+            <div class="gallery__description flex flex-wrap flex-jc-sb">
+                <div>
+                    <h3>Photo gallery</h3>
+                    <img src="./app/images/motijheel_branch.jpg" alt="Motijheel">
+                </div>
+                <div>
+                    <h3>Video Gallery</h3>
+                    <iframe  src="https://www.youtube.com/embed/3yg6iAjivnk" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                </div>
+                <div>
+                    <h3>Location Map</h3>
+                    <iframe src="https://maps.google.com/maps?q=university%20of%20san%20franciscoIdeal%20School%20%26%20College%2C%20Motijheel%2C%20Dhaka-1000&amp;t=&amp;z=13&amp;ie=UTF8&amp;iwloc=&amp;output=embed" frameborder="0" scrolling="no" marginheight="0" marginwidth="0"></iframe>
+                </div>
+            </div>
+            
+        </section>
+
+
+        <footer class="footer">
+            <center>© Copyright 2021 Ideal School & College | All Rights Reserved.</center>
+        </footer>
     
 
     <script src="/app/js/script.js"></script>
