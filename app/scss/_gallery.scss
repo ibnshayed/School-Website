@@ -4,14 +4,17 @@
 
     &__description > div{
         flex: 1 0 32%;
+
+        &:not(:last-child){
+            margin-right: 2%;
+        }
+
         @include breakpoint-down(medium){
-            flex: 1 0 100%;
+            flex: 1 0 92%;
+            margin: 30px 4%!important;
         }
     }
 
-    &__description > div:not(:last-child){
-        margin-right: 2%;
-    }
 
     img{
         width: 100%;

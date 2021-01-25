@@ -10,25 +10,32 @@
     }
 
     .first{
-        &.first > div{
-            width: 100%;
-            padding: 15px;
-            background-color: $green;
-            color: $white;
-            text-align: center;
-            font-size: 18px;
-            font-weight: bold;
-
-
-            a{
-                color: $white;
-            }
-        }
         @include breakpoint-down(medium){
             flex: 1 0 100%;
         }
     }
 
+    .first > div{
+        flex: 1 0 100%;
+        padding: 15px;
+        background-color: $green;
+        color: $white;
+        text-align: center;
+        font-size: 18px;
+        font-weight: bold;
+
+
+        a{
+            color: $white;
+        }
+
+        @include breakpoint-down(medium){
+            flex: 1 0 92%;
+            margin: 15px 4%;
+        }
+
+       
+    }
     .second{
         flex: 1 0 50%;
         img{
@@ -37,7 +44,8 @@
         }
 
         @include breakpoint-down(medium){
-            flex: 1 0 100%;
+            flex: 1 0 92%;
+            margin: 30px 4%!important;
         }
     }
 
@@ -54,7 +62,8 @@
         }
 
         @include breakpoint-down(medium){
-            flex: 1 0 100%;
+            flex: 1 0 92%;
+            margin: 30px 4%!important;
         }
 
     }

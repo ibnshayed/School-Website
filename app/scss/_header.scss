@@ -133,11 +133,18 @@
                 margin: 0;
                 padding: 8px;
             }
+            @include breakpoint-down(medium){
+                flex: 1 0 20%;
+            }
         }
         .payment{
             flex: 1 0 90%;
             background: $lightGray;
             padding: 7px 10px;
+
+            @include breakpoint-down(medium){
+                flex: 1 0 80%;
+            }
         }
 
     }
