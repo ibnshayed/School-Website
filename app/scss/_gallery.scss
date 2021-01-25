@@ -4,6 +4,9 @@
 
     &__description > div{
         flex: 1 0 32%;
+        @include breakpoint-down(medium){
+            flex: 1 0 100%;
+        }
     }
 
     &__description > div:not(:last-child){

@@ -14,6 +14,10 @@
 
     &__list > div{
         flex: 1 0 48%;
+
+        @include breakpoint-down(medium){
+            flex: 1 0 100%;
+        }
     }
     &__list > div:first-child{
         margin-right: 2%;

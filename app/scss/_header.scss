@@ -4,6 +4,23 @@
         padding: 10px;
     }
 
+    &__first > div{
+        @include breakpoint-down(medium){
+            flex: 1 0 100%;
+        }
+    }
+
+    &__logo{
+        @include breakpoint-down(medium){
+            order: 3;
+
+            img{
+                display: block;
+                margin: 0 auto;
+            }
+        }
+    }
+
     &__name{
         .bangla{
             font-weight: bold;
@@ -15,6 +32,17 @@
             color: #333;
             font-size: 28px;
         }
+        @include breakpoint-down(medium){
+            order: 4;
+            text-align: center;
+        }
+    }
+
+    &__language{
+        @include breakpoint-down(medium){
+            order: 1;
+            text-align: right;
+        }
     }
 
     &__email{
@@ -22,6 +50,10 @@
             font-size: 14px;
             font-family: 'Oswald', sans-serif;
             font-weight: bold;
+        }
+        @include breakpoint-down(medium){
+            order: 2;
+            text-align: right;
         }
     }
 
@@ -32,6 +64,13 @@
             list-style-type: none;
             padding-left: 0;
             margin: 0;
+        }
+
+        .nav-item{
+            @include breakpoint-down(medium){
+                flex: 1 0 100%;
+                text-align: center;
+            }
         }
 
         .nav-link{
@@ -96,7 +135,7 @@
             }
         }
         .payment{
-            width: 100%;
+            flex: 1 0 90%;
             background: $lightGray;
             padding: 7px 10px;
         }
